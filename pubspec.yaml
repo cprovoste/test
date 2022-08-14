@@ -1,0 +1,51 @@
+name: student_companion
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  get: ^4.6.5
+  cupertino_icons: ^1.0.5
+  connectivity_plus: ^2.3.6
+  shared_preferences: ^2.0.15
+  cached_network_image: ^3.2.1
+  flutter_svg: ^0.22.0
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Jost
+      fonts: 
+        - asset: assets/fonts/JostMedium.ttf
+          weight: 500
+        - asset: assets/fonts/JostBold.ttf
+          weight: 700
+        - asset: assets/fonts/JostRegular.ttf
+          weight: 400
+        - asset: assets/fonts/JostLight.ttf
+          weight: 300
+        - asset: assets/fonts/JostRomanMedium.ttf
+          weight: 500
+        - asset: assets/fonts/JostRomanRegular.ttf
+          weight: 400
+        - asset: assets/fonts/JostRomanLight.ttf
+          weight: 300
+    - family: Imprima
+      fonts: 
+        - asset: assets/fonts/ImprimaRegular.ttf
+          weight: 400
+    - family: Outfit
+      fonts: 
+        - asset: assets/fonts/OutfitRegular.ttf
+          weight: 400
+        - asset: assets/fonts/OutfitMedium.ttf
+          weight: 500
+        - asset: assets/fonts/OutfitLight.ttf
+          weight: 300
